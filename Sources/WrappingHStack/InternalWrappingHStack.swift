@@ -106,6 +106,7 @@ struct InternalWrappingHStack: View {
                     }
                 }
                 .frame(maxWidth: .infinity)
+                                                   .zIndex(50-laneIndex)
             }
         }
     }
